@@ -7,6 +7,7 @@ namespace ToDoList.Models
         public Category()
         {
             this.Items = new HashSet<CategoryItem>();
+            bool completed = false;
         }
 
         public int CategoryId { get; set; }
